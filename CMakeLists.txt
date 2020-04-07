@@ -22,7 +22,7 @@ find_package(g2o REQUIRED)
 include(FetchContent)
 
 FetchContent_Declare(viso2
-        GIT_REPOSITORY https://github.com/aforechi/libviso2.git
+        GIT_REPOSITORY https://github.com/LCAD-UFES/libviso2.git
         GIT_TAG        master
         )
 FetchContent_MakeAvailable(viso2)
